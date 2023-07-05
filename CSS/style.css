@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container {}
+
+.sidebar {
+    /* background-color: red; */
+    background-color: rgb(243, 240, 240);
+    width: 100vw;
+    height: 13vh;
+    font-family: 'Fira Sans', sans-serif;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.sidebar nav {
+    display: inline;
+    padding: 25px;
+}
+
+.sidebar nav ul li {
+    list-style: none;
+    font-size: 3vh;
+    padding: 3px 20px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.sidebar ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.about-Me {
+    float: right;
+
+}
+
+.web-content {
+    /* background-color: yellow; */
+    width: 100vw;
+
+
+
+
+}
+
+.sub-content {
+    width: 100vw;
+    background-color: rgb(225, 234, 225);
+    height: 79vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 120px 0px 0px 0px;
+
+
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 13vh;
+}
+
+.name {
+    font-size: 11vh;
+    font-family: souce code pro;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 6vh;
+}
+
+.moreabout {
+    font-size: 4vh;
+    font-family: souce code pro;
+}
+
+.button {
+    margin-top: 3vh;
+}
+
+.button button {
+    padding: 10px;
+    border-radius: 17px;
+    color: white;
+    background-color: #53a9f4;
+    margin: 0px 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: white;
+    color: #53a9f4;
+}
+
+.devpic img {
+    height: 72vh;
+
+}
+.gap{
+    background-color: rgb(255, 0, 85);
+    width: 100%;
+    height: 2px;
+}
+.AboutMe {
+    /* background-color: #53a9f4; */
+    background-color: rgb(225, 234, 225);
+    
+    
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    height: 99vh;
+    justify-content: space-around;
+}
+
+.about-me-name {
+    font-size: 9vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.thinking-img img {
+    float: left;
+    height: 77vh;
+}
+
+.AboutmeName {
+    height: 60vh;
+    /* background-color: blueviolet; */
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: center; */
+}
+
+.AboutmeName div {
+    padding: 2vh;
+}
+
+.about-me-name {
+    font-size: 11vh;
+    font-weight: bold;
+    font-family: souce code pro;
+
+}
+
+.about-me-content {
+    font-size: 3vh;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.Skills{
+
+   display: flex;
+   height: 99vh;
+   justify-content: space-around;
+   /* flex-direction: column; */
+}
+.skill-first-div{
+    background-color: blueviolet;
+    
+}
+.skill-logo{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+}
+.skills-img img{
+    height: 77vh;
+}
