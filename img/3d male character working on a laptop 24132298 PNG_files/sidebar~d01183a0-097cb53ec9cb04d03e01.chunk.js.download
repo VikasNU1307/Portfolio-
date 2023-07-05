@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[49],{82:function(e,r,t){"use strict";t.d(r,"a",(function(){return n}));var o=t(3),n=function(){var e=document.querySelector('[data-controller*="resource-show-main"]'),r="editorial"===e.dataset.resourceType?"free":e.dataset.resourceType;return Object(o.b)(r)}}}]);
-//# sourceMappingURL=sidebar~d01183a0-097cb53ec9cb04d03e01.chunk.js.map
